@@ -1,10 +1,10 @@
 # Directory Layout
 
-** if you want to list your blockhain on ping.pub, please submit your configure on https://github.com/ping-pub/ping.pub.git **
+**We accept all blockchains which have 10+ independent validators.**
 
 - Submit configs for mainnet, go to https://github.com/ping-pub/explorer/tree/master/chains/mainnet
 
-- Submit configs for testnet, go to https://github.com/ping-pub/explorer/tree/master/chains/testnet, thess configs will be enabled when you visit the domain starts withs `testnet.*`, for example `https://testnet.ping.pub`
+- Submit configs for testnet, go to https://github.com/ping-pub/explorer/tree/master/chains/testnet
 
 # Sample of Config
 

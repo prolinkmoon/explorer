@@ -38,7 +38,7 @@ const chainStore = useBlockchain()
   <div class="">
     <div class="flex md:!flex-row flex-col items-center justify-center mb-6 mt-14 gap-2">
       <div class="w-16 rounded-full">
-        <svg version="1.0" xmlns="http://www.w3.org/2000/svg" 
+        <!-- <svg version="1.0" xmlns="http://www.w3.org/2000/svg" 
           viewBox="0 0 150.000000 132.000000"
           preserveAspectRatio="xMidYMid meet">
           <g transform="translate(0.000000,132.000000) scale(0.100000,-0.100000)"
@@ -56,7 +56,18 @@ const chainStore = useBlockchain()
             <path d="M360 625 c0 -7 148 -263 172 -297 l19 -28 186 0 c101 0 183 3 181 8
             -1 4 -43 78 -93 165 l-90 157 -187 0 c-104 0 -188 -2 -188 -5z"/>
           </g>
-        </svg>
+        </svg> -->
+        <!-- <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="200px" height="200px" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid meet">
+<g><path style="opacity:1" fill="#0f0f0f" d="M -0.5,-0.5 C 66.1667,-0.5 132.833,-0.5 199.5,-0.5C 199.5,66.1667 199.5,132.833 199.5,199.5C 132.833,199.5 66.1667,199.5 -0.5,199.5C -0.5,132.833 -0.5,66.1667 -0.5,-0.5 Z"/></g>
+<g><path style="opacity:1" fill="#fbfbfb" d="M 159.5,138.5 C 144.5,139.167 129.5,139.833 114.5,140.5C 109.929,148.638 105.096,156.638 100,164.5C 95.3034,156.329 90.4701,148.329 85.5,140.5C 70.1667,139.833 54.8333,139.167 39.5,138.5C 59.236,104.03 79.236,69.6969 99.5,35.5C 120.265,69.361 140.265,103.694 159.5,138.5 Z"/></g>
+<g><path style="opacity:1" fill="#303030" d="M 100.5,108.5 C 97.4155,102.661 94.0821,96.9942 90.5,91.5C 87.7801,85.7288 84.7801,80.0621 81.5,74.5C 88.1667,73.1667 94.8333,73.1667 101.5,74.5C 107.581,85.6633 113.914,96.6633 120.5,107.5C 113.866,108.497 107.2,108.83 100.5,108.5 Z"/></g>
+<g><path style="opacity:1" fill="#060606" d="M 90.5,91.5 C 94.0821,96.9942 97.4155,102.661 100.5,108.5C 93.825,108.666 87.1583,108.5 80.5,108C 84.059,102.614 87.3924,97.1142 90.5,91.5 Z"/></g>
+<g><path style="opacity:1" fill="#515151" d="M 119.5,112.5 C 106.833,111.167 94.1667,111.167 81.5,112.5C 80.9569,112.44 80.6236,112.107 80.5,111.5C 93.8333,110.167 107.167,110.167 120.5,111.5C 120.376,112.107 120.043,112.44 119.5,112.5 Z"/></g>
+<g><path style="opacity:1" fill="#040404" d="M 119.5,112.5 C 113.667,123.505 107.334,134.172 100.5,144.5C 93.6663,134.172 87.3329,123.505 81.5,112.5C 94.1667,111.167 106.833,111.167 119.5,112.5 Z"/></g>
+<g><path style="opacity:1" fill="#949494" d="M 39.5,138.5 C 54.8333,139.167 70.1667,139.833 85.5,140.5C 69.8192,140.833 54.1525,140.499 38.5,139.5C 38.6236,138.893 38.9569,138.56 39.5,138.5 Z"/></g>
+<g><path style="opacity:1" fill="#969696" d="M 159.5,138.5 C 160.043,138.56 160.376,138.893 160.5,139.5C 145.181,140.499 129.848,140.833 114.5,140.5C 129.5,139.833 144.5,139.167 159.5,138.5 Z"/></g>
+</svg> -->
+
       </div>
       <h1 class="text-primary dark:invert text-3xl md:!text-6xl font-bold">
         {{ $t('pages.title') }}
